@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620902247483' stop='1620902266284'>
+    <name>Ajax Page Suite</name>
+    <title>Ajax Page Suite</title>
+    <test-cases>
+        <test-case start='1620902247483' status='passed' stop='1620902266283'>
+            <name>should retrieve Ajax response</name>
+            <title>should retrieve Ajax response</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0d50c280-8004-4dd5-b79a-43d06fd8e183-attachment.png' type='image/png' size='177336'/>
+                <attachment title='ajax_with_request_capture.png' source='cac991ca-53e7-4009-9a7e-960d7538a6af-attachment.png' type='image/png' size='177336'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

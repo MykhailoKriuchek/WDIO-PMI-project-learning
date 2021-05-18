@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620901700144' stop='1620901804170'>
+    <name>Home Page Suite</name>
+    <title>Home Page Suite</title>
+    <test-cases>
+        <test-case start='1620901700146' status='passed' stop='1620901804169'>
+            <name>should have Load Delay section</name>
+            <title>should have Load Delay section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='environment-variable' name='BROWSER' value='chrome'/>
+                <parameter kind='environment-variable' name='BROWSER_VERSION' value='undefined'/>
+                <parameter kind='environment-variable' name='PLATFORM' value='undefined'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f974d503-1885-4153-9a37-3ea6e843b02f-attachment.png' type='image/png' size='483075'/>
+                <attachment title='homepage.png' source='4c373f8f-3ab8-42e7-9b59-ba05d1addf05-attachment.png' type='image/png' size='483075'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

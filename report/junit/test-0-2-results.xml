@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Text Input Spec" timestamp="2021-05-13T13:37:27" time="3.742" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Text Input Spec"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.macosx"/>
+      <property name="file" value="./test/specs/textInput.spec.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.macosx.Text Input Spec" name="Change button text with chai" time="0.988">
+      <system-out><![CDATA[
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/3f28e9e9727c18a672294e6a6db0429f/element/d342e93b-4f2d-485a-be0e-a4059a4abd2c/text - {}
+RESULT: {}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element - {"using":"css selector","value":"#newButtonName"}
+RESULT: {"using":"css selector","value":"#newButtonName"}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element/d68291ac-fcaa-4aef-9363-2e18a5526d5c/clear - {}
+RESULT: {}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element/d68291ac-fcaa-4aef-9363-2e18a5526d5c/value - {"text":"My Special Name"}
+RESULT: {"text":"My Special Name"}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element/d342e93b-4f2d-485a-be0e-a4059a4abd2c/click - {}
+RESULT: {}
+COMMAND: POST /session/3f28e9e9727c18a672294e6a6db0429f/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/3f28e9e9727c18a672294e6a6db0429f/element/d342e93b-4f2d-485a-be0e-a4059a4abd2c/text - {}
+RESULT: {}
+COMMAND: DELETE /session/3f28e9e9727c18a672294e6a6db0429f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

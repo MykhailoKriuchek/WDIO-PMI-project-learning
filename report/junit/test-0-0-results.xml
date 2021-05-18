@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Text Input Spec" timestamp="2021-05-13T13:43:05" time="4.176" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Text Input Spec"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.macosx"/>
+      <property name="file" value="./test/specs/textInput.spec.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.macosx.Text Input Spec" name="Change button text with chai" time="0.304">
+      <system-out><![CDATA[
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/text - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#newButtonName"}
+RESULT: {"using":"css selector","value":"#newButtonName"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/244bb408-2f5b-4f84-8ff8-87f0dbe7afc2/clear - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/244bb408-2f5b-4f84-8ff8-87f0dbe7afc2/value - {"text":"My Special Name"}
+RESULT: {"text":"My Special Name"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/click - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.macosx.Text Input Spec" name="Change button text with chai" time="0.227">
+      <system-out><![CDATA[
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/text - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#newButtonName"}
+RESULT: {"using":"css selector","value":"#newButtonName"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/244bb408-2f5b-4f84-8ff8-87f0dbe7afc2/clear - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/244bb408-2f5b-4f84-8ff8-87f0dbe7afc2/value - {"text":"My Special Name"}
+RESULT: {"text":"My Special Name"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/click - {}
+RESULT: {}
+COMMAND: POST /session/fae5455a7cc4843245c2463737e46fac/element - {"using":"css selector","value":"#updatingButton"}
+RESULT: {"using":"css selector","value":"#updatingButton"}
+COMMAND: GET /session/fae5455a7cc4843245c2463737e46fac/element/030bfffe-52b1-457d-a7d5-a8a8a658967f/text - {}
+RESULT: {}
+COMMAND: DELETE /session/fae5455a7cc4843245c2463737e46fac - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
