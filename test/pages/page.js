@@ -7,6 +7,7 @@ export default class Page {
     browser.url(path);
   }
 
+  
   verifyTextInPage(text) {
     const pageText = $('body').getText();
     const position = pageText.search(text);
