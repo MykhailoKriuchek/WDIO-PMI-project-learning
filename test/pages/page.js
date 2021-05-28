@@ -6,13 +6,7 @@ export default class Page {
   open(path) {
     browser.url(path);
   }
-  
-  verifyTextInPage(text) {
-    const pageText = $('body').getText();
-    const position = pageText.search(text);
-    chai.expect(position).to.be.above(0);
-  }
-  
+
   verifyTextInPage(text) {
     const pageText = $('body').getText();
     const position = pageText.search(text);

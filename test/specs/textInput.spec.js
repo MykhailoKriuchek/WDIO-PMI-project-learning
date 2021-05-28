@@ -10,11 +10,5 @@ describe('Text Input Spec', function() {
     textInputPage.updateButtonText('My Special Name');
     chai.expect(textInputPage.getButtonText()).to.be.eql('My Special Name');
   });
-
-  it('Change button text with chai', function() {
-    console.log(`Button text: ${textInputPage.getButtonText()}`);
-    textInputPage.updateButtonText('My Special Name');
-    chai.expect(textInputPage.getButtonText()).not.to.be.eql('My Special Name');
-  });
 });
 
