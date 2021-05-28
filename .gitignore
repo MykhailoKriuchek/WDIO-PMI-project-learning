@@ -1,0 +1,11 @@
+node_modules
+e2e/allure-results
+e2e/allure-report
+e2e/reports
+e2e/test-utils/test-rail/run-id
+.idea
+.vscode
+.DS_Store
+package-lock.json
+./package-lock.json
+e2e/performance/results
