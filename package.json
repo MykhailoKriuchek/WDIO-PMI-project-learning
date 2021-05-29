@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "shx rm -rf ./report",
     "test": "wdio wdio.conf.js",
+    "click": "wdio wdio.conf.js --spec test/specs/click.spec.js",
     "test.sauce": "wdio wdio.saucelabs.conf.js",
     "lint": "eslint .",
     "report": "allure serve report/allure-results",
